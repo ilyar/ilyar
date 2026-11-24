@@ -1,0 +1,16 @@
+# ilyar
+
+> Reusable footer signatures for ilyar's projects. Each example includes the footer layout, typography and portrait.
+
+For a request such as `Colophon 36px`, select `#colophon-36 footer` in the HTML source below. The size is the portrait diameter in CSS pixels. The same selector pattern applies to Inline (20, 28, 36 px), Colophon (36, 48, 60 px) and Seal (32, 48, 80 px).
+
+1. Copy the selected `<footer>` element and its contents into the host page. Preserve the classes, inline size and image dimensions.
+2. Copy `signature.css` and `ilyar.svg` into the host project. Load the stylesheet after the host styles and point the image's `src` to the copied portrait. The stylesheet loads JetBrains Mono.
+3. Keep the example's link to `https://github.com/ilyar` unless the request specifies another destination. If asked for the demo repository, set the anchor's `href` to that repository.
+4. After the font loads, compare the rendered footer with the selected example in both themes. For Colophon 36px, the signature sits at the start of a footer at least 96 px high, vertically centered. The two right-aligned text lines use 14 px and 20 px type. A 1 px divider has 12 px of space on each side before the 36 px portrait.
+
+## Signature sources
+
+- [HTML examples](https://raw.githubusercontent.com/ilyar/ilyar/main/signature.html)
+- [Component stylesheet](https://raw.githubusercontent.com/ilyar/ilyar/main/signature.css)
+- [SVG portrait](https://raw.githubusercontent.com/ilyar/ilyar/main/ilyar.svg)
